@@ -26,6 +26,6 @@ class Transfer
   puts 'Transaction was already executed'
 else
   @sender.deposit( @amount * -1)
-  
+  @receiver.deposit(@amount)
   
 end
