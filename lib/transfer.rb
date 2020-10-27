@@ -9,7 +9,8 @@ class Transfer
     @amount = amount
   end
   
-  def both_valid
+  def both_valid?
+    if sender.valid? && receiver.valid?
 end
 
 def 
