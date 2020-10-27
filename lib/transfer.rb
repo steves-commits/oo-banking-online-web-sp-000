@@ -22,7 +22,7 @@ class Transfer
       @status = 'rejected'
       return "Transaction rejected. Please check your account balance."
     
-  elsif 
+  elsif @status == 'Complete'
   
   
 end
