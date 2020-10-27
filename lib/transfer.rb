@@ -29,6 +29,9 @@ else
   @receiver.deposit(@amount)
   @status = 'complete'
 end
+end
+
+
   
   
   
