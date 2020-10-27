@@ -25,7 +25,12 @@ class Transfer
   elsif @status == 'complete'
   puts 'Transaction was already executed'
 else
-  @sender.deposit( @amount * -1)
+  @sender.deposit(@amount * -1)
   @receiver.deposit(@amount)
+  
+  
+  
+  
+  
   
 end
