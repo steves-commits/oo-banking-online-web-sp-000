@@ -9,7 +9,7 @@ class Transfer
     @amount = amount
   end
   
-  def valid
+  def both_valid
 end
 
 def 
